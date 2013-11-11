@@ -1,7 +1,7 @@
 homebrew-astronomy
 ==================
 
-These formulae provide software related to Astronomy and Astrophysic.
+These formulae provide software related to Astronomy and Astrophysics.
 
 How do I install these formulae?
 --------------------------------
