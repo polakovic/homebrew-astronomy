@@ -1,6 +1,6 @@
 require 'formula'
 
-class IndiSx < Formula
+class IndiQhy < Formula
   homepage 'http://www.indilib.org'
   url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-qhy', :using => :svn, :revision => '959'
   head 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-qhy', :using => :svn
