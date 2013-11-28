@@ -7,9 +7,6 @@ class IndiQhy < Formula
 
   depends_on 'cmake' => :build
   depends_on 'polakovic/astronomy/libindi'
-  depends_on 'libusb'
-  depends_on 'libusb-compat'
-  depends_on 'cfitsio'
 
   def install
     system "cmake", ".", *std_cmake_args

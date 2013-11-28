@@ -1,8 +1,8 @@
 require 'formula'
 
-class IndiSx < Formula
+class IndiEqmod < Formula
   homepage 'http://www.indilib.org'
-  url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-sx', :using => :svn
+  url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-eqmod', :using => :svn
   version "0.9.7"
 
   depends_on 'cmake' => :build
