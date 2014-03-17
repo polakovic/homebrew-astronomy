@@ -2,9 +2,9 @@ require 'formula'
 
 class IndiEqmod < Formula
   homepage 'http://www.indilib.org'
-  url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-eqmod', :using => :svn, :revision => '1408'
+  url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-eqmod', :using => :svn, :revision => '1524'
   head 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-eqmod', :using => :svn 
-  version "0.9.7.1408"
+  version "0.9.8.1524"
 
   depends_on 'cmake' => :build
   depends_on 'polakovic/astronomy/libindi'
