@@ -8,8 +8,8 @@ class Libindi < Formula
 
   depends_on 'cmake' => :build
   depends_on 'polakovic/astronomy/libnova'
+  depends_on 'polakovic/astronomy/libcfitsio'
   depends_on 'libusb'
-  depends_on 'cfitsio'
   depends_on 'gsl'
 
   def install
