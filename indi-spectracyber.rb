@@ -2,9 +2,9 @@ require 'formula'
 
 class IndiSpectracyber < Formula
   homepage 'http://www.indilib.org'
-  url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-spectracyber', :using => :svn, :revision => '1751'
+  url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-spectracyber', :using => :svn, :revision => '1769'
   head 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-spectracyber', :using => :svn
-  version "0.9.8.1751"
+  version "0.9.9.1769"
 
   depends_on 'cmake' => :build
   depends_on 'polakovic/astronomy/libindi'
