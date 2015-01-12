@@ -2,9 +2,9 @@ require 'formula'
 
 class IndiAagcloudwatcher < Formula
   homepage 'http://www.indilib.org'
-  url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-aagcloudwatcher', :using => :svn, :revision => '1885'
+  url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-aagcloudwatcher', :using => :svn, :revision => '1932'
   head 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-aagcloudwatcher', :using => :svn
-  version "0.9.9.1885"
+  version "0.9.9.1932"
 
   depends_on 'cmake' => :build
   depends_on 'polakovic/astronomy/libindi'

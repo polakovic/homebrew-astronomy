@@ -2,8 +2,8 @@ require 'formula'
 
 class IndiShoestring < Formula
   homepage 'http://www.indilib.org'
-  url 'http://download.cloudmakers.eu/indi-shoestring-0.8.tar.gz'
-  sha1 '25b2cfb5badcad90da3317efa5db89ebdfec2372'
+  url 'http://download.cloudmakers.eu/indi-shoestring-0.10.tar.gz'
+  sha1 'e5de4f661971cc51f40fb10cd15433035aa3c1cd'
 
   depends_on 'cmake' => :build
   depends_on 'polakovic/astronomy/libindi'
