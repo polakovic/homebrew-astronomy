@@ -10,6 +10,9 @@ class Libnova < Formula
   depends_on 'libtool' => :build
 
   def install
+    ENV.append "CFLAGS", "-march=core2"
+    ENV.append "CPPFLAGS", "-march=core2"
+    ENV.append "CXXFLAGS", "-march=core2"
     system "autoreconf", "--force", "--install"
     system "./configure", "--prefix=#{prefix}"
     system "make", "install"

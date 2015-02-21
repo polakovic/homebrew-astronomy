@@ -7,6 +7,9 @@ class Libcfitsio < Formula
   version "3.370"
 
   def install
+    ENV.append "CFLAGS", "-march=core2"
+    ENV.append "CPPFLAGS", "-march=core2"
+    ENV.append "CXXFLAGS", "-march=core2"
     system "./configure", "--prefix=#{prefix}"
     system "make shared"
     system "make install"
