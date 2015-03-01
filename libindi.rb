@@ -2,9 +2,9 @@ require 'formula'
 
 class Libindi < Formula
   homepage 'http://www.indilib.org'
-  url 'http://svn.code.sf.net/p/indi/code/trunk/libindi', :using => :svn, :revision => '2030'
+  url 'http://svn.code.sf.net/p/indi/code/trunk/libindi', :using => :svn, :revision => '2065'
   head 'http://svn.code.sf.net/p/indi/code/trunk/libindi', :using => :svn 
-  version "1.0.0.2030"
+  version "1.0.0.2065"
 
   depends_on 'cmake' => :build
   depends_on 'polakovic/astronomy/libnova'
