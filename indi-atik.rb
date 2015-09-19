@@ -2,8 +2,8 @@ require 'formula'
 
 class IndiAtik < Formula
   homepage 'http://www.indilib.org'
-  url 'http://download.cloudmakers.eu/indi-atik-0.30.tar.gz'
-  sha1 '92c875385b8fede8068cc7c77b7aae795fb78571'
+  url 'http://download.cloudmakers.eu/indi-atik-0.34.tar.gz'
+  sha1 'be3bc9f56b40413c7a11b2b2e550d77c66fa19e1'
 
   depends_on 'cmake' => :build
   depends_on 'polakovic/astronomy/libindi'

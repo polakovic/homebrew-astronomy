@@ -2,9 +2,9 @@ require 'formula'
 
 class IndiSx < Formula
   homepage 'http://www.indilib.org'
-  url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-sx', :using => :svn, :revision => '2307'
+  url 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-sx', :using => :svn, :revision => '2439'
   head 'http://svn.code.sf.net/p/indi/code/trunk/3rdparty/indi-sx', :using => :svn
-  version "1.0.0.2307"
+  version "1.1.0.2439"
 
   depends_on 'cmake' => :build
   depends_on 'polakovic/astronomy/libindi'
