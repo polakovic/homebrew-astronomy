@@ -3,7 +3,7 @@ require 'formula'
 class Libdc1394 < Formula
   homepage 'http://libdc1394.sourceforge.net'
   url 'http://downloads.sourceforge.net/project/libdc1394/libdc1394-2/2.2.3/libdc1394-2.2.3.tar.gz'
-  sha1 'c40bdf37c64e0bce5dcc3e6e868d226e309a3a19'
+  sha256 '4a197880657f54519683ce014e613acdfd909767a69873eb23409fe423232bdd'
 
   depends_on 'pkgconfig' => :build
 
