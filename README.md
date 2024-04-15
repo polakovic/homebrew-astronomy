@@ -1,6 +1,8 @@
 homebrew-astronomy
 ==================
 
+PLS. NOTE THAT THIS PROJECT IS NOT MAINTAINED SINCE 2015.
+
 These formulae provide software related to Astronomy and Astrophysics.
 
 How do I install these formulae?
